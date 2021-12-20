@@ -136,39 +136,39 @@ finalNetProfitSection.parentNode.style.backgroundColor =
 //--------------------------------------------------
 //--------------------------------------------------
 //--------------------------------------------------
-for (var i = 0; i < allh2s.length; i++) {
-    if (i > 1) {
-        switch (frequencyInput.value) {
-            case "weekly":
-                allh2s[i].textContent += " (weekly)";
-                break;
-            case "monthly":
-                allh2s[i].textContent += " (monthly)";
-                break;
-            case "yearly":
-                allh2s[i].textContent += " (yearly)";
-                break;
-        }
-    }
-}
+// for (var i = 0; i < allh2s.length; i++) {
+//     if (i > 1) {
+//         switch (frequencyInput.value) {
+//             case "weekly":
+//                 allh2s[i].textContent += " (weekly)";
+//                 break;
+//             case "monthly":
+//                 allh2s[i].textContent += " (monthly)";
+//                 break;
+//             case "yearly":
+//                 allh2s[i].textContent += " (yearly)";
+//                 break;
+//         }
+//     }
+// }
 
-frequencyInput.addEventListener("change", () => {
-    for (var i = 0; i < allh2s.length; i++) {
-        if (i > 1) {
-            switch (frequencyInput.value) {
-                case "weekly":
-                    allh2s[i].textContent += " (weekly)";
-                    break;
-                case "monthly":
-                    allh2s[i].textContent += " (monthly)";
-                    break;
-                case "yearly":
-                    allh2s[i].textContent += " (yearly)";
-                    break;
-            }
-        }
-    }
-});
+// frequencyInput.addEventListener("change", () => {
+//     for (var i = 0; i < allh2s.length; i++) {
+//         if (i > 1) {
+//             switch (frequencyInput.value) {
+//                 case "weekly":
+//                     allh2s[i].textContent += " (weekly)";
+//                     break;
+//                 case "monthly":
+//                     allh2s[i].textContent += " (monthly)";
+//                     break;
+//                 case "yearly":
+//                     allh2s[i].textContent += " (yearly)";
+//                     break;
+//             }
+//         }
+//     }
+// });
 
 //--------------------------------------------------
 //--------------------------------------------------
